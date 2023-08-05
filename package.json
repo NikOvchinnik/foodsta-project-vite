@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/vite-team/",
+    "build": "vite build --base=/foodsta-project-vite/",
     "preview": "vite preview"
   },
   "devDependencies": {
