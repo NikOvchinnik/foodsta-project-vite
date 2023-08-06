@@ -1,14 +1,10 @@
 .offerings {
     background-color: var(--secondary-background-color);
-    /* padding-top: 43px; */
-    /* padding-bottom: 43px; */
     padding-top: 70px;
     padding-bottom: 72px;
 }
 
 .offerings-img-border {
-    /* width: 550px;
-    height: 550px; */
     width: 280px;
     height: 280px;
     display: flex;
@@ -21,62 +17,46 @@
 
 .offerings-img-container {
     background-color: var(--background-color);
-    /* border-radius: 502px; */
-    /* width: 502px;
-    height: 502px; */
     border-radius: 256px;
     width: 256px;
     height: 256px;
 }
 
 .offerings-img {
-    /* width: 396px;
-    height: 502px; */
     width: 202px;
     height: 256px;
     border-radius: 262px;
     position: absolute;
-    /* left: 84px;
-    bottom: 102px; */
     left: 35px;
     bottom: 49px;
 }
 
 .offerings-text-container {
-    /* padding-top: 39px; */
     padding-top: 60px;
     margin-left: auto;
 }
 
 .offerings-title {
-    /* font-size: 42px; */
     font-size: 28px;
     line-height: 1.2;
     font-weight: 700;
-    /* margin-bottom: 20px; */
     margin-bottom: 28px;
-    /* max-width: 526px; */
     max-width: 280px;
 }
 
 .offerings-text {
-    /* font-size: 16px; */
     font-size: 14px;
     line-height: 1.5;
     font-weight: 400;
-    /* max-width: 500px; */
     max-width: 280px;
     width: 100%;
-    /* margin-bottom: 40px; */
     margin-bottom: 28px;
 }
 
 .offerings-list {
     display: flex;
     flex-wrap: wrap;
-    /* gap: 67px; */
     gap: 24px;
-    /* margin-bottom: 32px; */
     margin-bottom: 28px;
 }
 
@@ -105,9 +85,7 @@
 }
 
 .offerings-item-text {
-    /* width: 253px; */
     max-width: 280px;
-    /* line-height: 1.5; */
     font-size: 14px;
     line-height: 1.4;
     margin-bottom: 32px;
