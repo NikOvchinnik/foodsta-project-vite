@@ -3,6 +3,7 @@
     <div class="offerings-img-border">
       <div class="offerings-img-container">
         <img
+          srcset="./img/apple.png 1x, ./img/apple-2x.png 2x"
           src="./img/apple.png"
           alt="Apple"
           width="396"
@@ -53,7 +54,18 @@
           </p>
         </li>
       </ul>
-      <button type="button" class="offerings-btn">Order Now</button>
+      <div class="btn-container">
+        <button type="button" class="offerings-btn">Order Now</button>
+        <button type="button" class="offerings-read-btn">
+          Read More<svg
+            class="offering-btn-icon"
+            width="13.667"
+            height="13.667px"
+          >
+            <use href="./img/icons.svg#icon-scroll-offer"></use>
+          </svg>
+        </button>
+      </div>
     </div>
   </div>
 </section>
