@@ -30,9 +30,9 @@
   /* margin-bottom: 24px; */
 }
 .subscribe-form {
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  align-items: flex-end; */
+  align-items: flex-end;
 }
 .subscribe-btn {
   color: var(--primary-text-color);
@@ -70,7 +70,7 @@
   line-height: 1.25;
   color: var(--form-color);
   outline: transparent;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .subscribe-input::placeholder {
@@ -83,4 +83,5 @@
   width: 280px;
   height: 74px;
   /* margin-left: auto; */
+  margin-bottom: 17px;
 }
