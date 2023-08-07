@@ -21,14 +21,23 @@
       </form>
     </div>
     <div class="subscribe-img-container">
-      <img
-        srcset="./img/banan-mobile.png 1x ./img/banan-mobile-2x.png"
-        src="./img/banan-mobile.png"
-        alt="banan"
-        width="280"
-        height="78"
-        class="subscribe-img"
-      />
+      <picture>
+        <source
+          srcset="./img/banan.png 1x, ./img/banan-2x.png 2x"
+          media="(min-width: 1280px)" />
+        <source
+          srcset="./img/banan-tab.png 1x, ./img/banan-tab-2x.png 2x"
+          media="(min-width: 768px)" />
+        <source
+          srcset="./img/banan-mobile.png 1x, ./img/banan-mobile-2x.png 2x"
+          media="(min-width: 320px)" />
+        <img
+          src="./img/banan.png"
+          alt="banan"
+          width="608"
+          height="266"
+          class="subscribe-img"
+      /></picture>
     </div>
   </div>
 </section>
