@@ -1,0 +1,38 @@
+.customers-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    height: 769px;
+    background-image: url(../img/custom-bckr-mob-1x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .customers-section {
+        background-image:
+            url(../img/custom-bckr-mob-2x.jpg);
+    }
+}
+
+.customers-title {
+    color: var(--primary-text-color);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.customers-text {
+    color: var(--primary-text-color);
+    line-height: normal;
+    margin-bottom: 32px;
+}
+
+.customers-list {
+    display: flex;
+    flex-wrap: wrap;
+}
