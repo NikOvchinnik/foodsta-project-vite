@@ -35,4 +35,50 @@
 .customers-list {
     display: flex;
     flex-wrap: wrap;
+    gap: 24px;
+}
+
+.customers-item {
+    background-color: var(--white-color);
+    border-radius: 0 30px 30px 30px;
+    padding: 8px;
+    
+}
+
+.customers-stars-list {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 28px;
+}
+
+.customers-stars-icon {
+    fill: var(--secondary-background-color);
+}
+
+.customers-item-text {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+.customers-block {
+    display: flex;
+    gap: 16px;
+}
+
+.customers-block-name {
+    flex-direction: column;
+}
+
+.customers-block-subtitle {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    
+}
+
+.customers-block-text {
+    color: var(--primary-text-color);
+   
 }
